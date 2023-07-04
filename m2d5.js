@@ -117,6 +117,7 @@ function giveMeRandom(n){
     return arrDiN
 }
 
+console.log("X numeri a caso da 0 a 10")
 console.log(giveMeRandom(8))
 console.log("")
 
