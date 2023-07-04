@@ -117,7 +117,7 @@ function giveMeRandom(n){
     return arrDiN
 }
 
-console.log(giveMeRandom(2))
+console.log(giveMeRandom(8))
 console.log("")
 
 
