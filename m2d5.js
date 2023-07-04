@@ -141,10 +141,18 @@ console.log("")
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 function crazyDiff(num){
-    if(num>=19)
-        return num-19
-    else
-        return 19-num
+    let diffAss
+    if(num>=19){
+        diffAss=num-19
+    }else{
+        diffAss=19-num
+    }
+
+    if(diffAss<19){        
+        return diffAss
+    }else{
+        return (diffAss*3)
+    }
 }
 console.log("Differenza Assoluta tra numero fornito e 19")
 console.log(crazyDiff(10))
